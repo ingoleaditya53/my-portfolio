@@ -1,0 +1,53 @@
+/* Ensures the entire page is scrollable if content exceeds the viewport */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Add background image to the .home container */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align to the top, instead of centering vertically */
+  min-height: 100vh; /* Ensure it takes full height of the viewport */
+  padding: 20px;
+  background-image: url('/public//Home.jpg'); /* Add your background image path here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
+  padding: 20px; /* Adds padding to content */
+  border-radius: 10px; /* Optional: adds rounded corners */
+  color: white;
+  margin-top: 50px;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+  margin-bottom: 20px; /* Adds space between text and image */
+}
+
+.text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1.2rem;
+}
+
+.image img {
+  width: 300px; /* Adjust image size */
+  height: auto;
+  border-radius: 10px;
+}

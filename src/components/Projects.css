@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/public/Home.jpg'); /* Background image for the whole page */
+  background-size: cover; /* Ensures the background image covers the entire page */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Ensures the body takes up the full height of the viewport */
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+.projects {
+  padding: 20px;
+  max-width: 1200px; /* Adjust the width as needed */
+  width: 100%; /* Ensure the content takes up full width available */
+  margin: 0 auto; /* Centers the content horizontally */
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white; /* Change text color to white to make it stand out on the background */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-image {
+  width: 50px; /* Adjust the image size */
+  height: 50px;
+  margin-right: 15px; /* Adds space between the image and the text */
+  border-radius: 5px; /* Optional: adds rounded corners to the image */
+}
+
+.project-item span {
+  font-size: 1.2rem;
+  color: white; /* Change text color to white for better contrast against the background */
+}

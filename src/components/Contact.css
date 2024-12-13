@@ -1,0 +1,70 @@
+.contact {
+  padding: 20px;
+  color: white;
+  max-width: 500px; /* Adjust the width to be smaller on larger screens */
+  width: 100%; /* Ensure the form takes up 100% width on smaller screens */
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  height: auto; /* Automatically adjusts height based on content */
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1rem; /* Slightly smaller text */
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Reduced space between fields */
+  text-align: left;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px; /* Smaller padding */
+  font-size: 1rem;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+textarea {
+  height: 100px; /* Smaller height for textarea */
+  resize: vertical;
+}
+
+button {
+  padding: 8px 15px; /* Smaller button size */
+  font-size: 1.1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact {
+    max-width: 100%; /* Ensure the form takes full width on smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
